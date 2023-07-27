@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIALUZ</title>
+    <meta name="description" conten="ORA - Watches &amp; Jewelry | Cart">
+    <meta name="author" content="Author Name">
+    <meta name="keywords" content="Or&euml; Dore, Syze, Bizhuteri, Aksesore, Outlet etc..." />
+    <link rel="icon" href="./assets/img/favicon.png" sizes="32x32" />
+    <link rel="icon" href="./assets/img/favicon.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="/assets/img/favicon.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <div class="page-loader loader">
+        <div class="cmps">
+            <span class="mt-4 mx-auto d-block text-center">
+                Carregando<b></b><b></b><b></b>
+            </span>
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="container">
+            <section class="header--main">
+                <div class="mobile-menu">
+                    <input id="menu__toggle" class="open-nav" type="checkbox" />
+                    <label class="menu__btn" class="open" for="menu__toggle">
+                        <span></span>
+                    </label>
+                </div>
+                <div class="header--logo">
+                    <!-- <a href="./"><span>Ora</span> Watches &amp Jewelery</a> -->
+                    <a href="./">
+                        <img src="./assets/img/light-logo.png" class="nav-logo" alt="Ora Watches &amp; Jewelery | Logo">
+                    </a>
+                </div>
+                <nav class="menu js-menu">
+                    <ul class="ul-menu">
+                        <li class="menu-item">
+                            <a href="./" class="active">Inicio</a>
+                        </li>
+                        <li class="menu-item menu-item-child">
+                            <a href="#" class="js-sub_menu">Produtos <i class="uil uil-angle-down"></i></a>
+                            <ul class="sub-menu">
+                                <li class="sub-menu-item"><a href="./products/products.html">Todos os Produtos</a></li>
+                                <li class="sub-menu-item"><a href="./products/single-products.html">Detalhes do produto</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item menu-item-child">
+                            <a href="#" class="js-sub_menu">Paginas <i class="uil uil-angle-down"></i></a>
+                            <ul class="sub-menu">
+                                <li class="sub-menu-item"><a href="./log-in.html">Login</a></li>
+                                <li class="sub-menu-item"><a href="./sign-up.html">Registro</a></li>
+                                <li class="sub-menu-item"><a href="./blog.html">Blog</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a href="./about.html">Sobre</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="./contact.html">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="darkLight-searchBox">
+                    <div class="dark-light">
+                        <!-- <i class="fa-solid fa-moon moon"></i> -->
+                        <!-- <i class="fa-solid fa-sun"></i> -->
+                        <i class="uil uil-moon moon"></i>
+                        <i class="uil uil-sun sun"></i>
+                    </div>
+                    <div class="searchBox">
+                        <div class="searchToggle">
+                            <!-- <i class="fa-solid fa-xmark cancel"></i> -->
+                            <!-- <i class="fa-solid fa-magnifying-glass search"></i> -->
+                            <i class="uil uil-times cancel"></i>
+                            <i class="uil uil-search search"></i>
+                        </div>
+
+                        <div class="search-field">
+                            <input type="text" placeholder="Search..." />
+                            <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+                            <i class="uil uil-search-alt"></i>
+                        </div>
+                    </div>
+                    <div class="cart-checkout">
+                        <i class="uil uil-shopping-bag shopping-cart"></i>
+                    </div>
+                    <!-- <i class="fa-solid fa-bars open-nav"></i> -->
+                </div>
+            </section>
+            <div class="progress"></div>
+        </div>
+    </header><!-- header-end ./ -->
+
+    <main class="wrapper">
+        <section class="hero blog-hero">
+            <div class="container-fluid">
+                <div class="row">
+                    <h2>Carrinho</h2>
+                    <p>Obrigado por escolher a vialuz, para o checkout/pagamento veja detalhes abaixo!</p>
+                </div>
+            </div>
+        </section><!-- hero ./ -->
+
+        <section class="cart">
+            <div class="container">
+                <div class="row">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <td>Remover</td>
+                                <td>Imagem</td>
+                                <td>Produto</td>
+                                <td>Preço</td>
+                                <td>Quantidade</td>
+                                <td>Subtotal</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href="#"><i class="uil uil-times-circle"></i></a></td>
+                                <td><img src="./assets/img/products/quantum.png" alt="Quantum"></td>
+                                <td>Quantum Watch</td>
+                                <td>R$1390</td>
+                                <td><input type="number" value="1" max="10" /></td>
+                                <td>R$1390</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#"><i class="uil uil-times-circle"></i></a></td>
+                                <td><img src="./assets/img/products/quantum2.png" alt="Quantum"></td>
+                                <td>Quantum Watch</td>
+                                <td>R$1600</td>
+                                <td><input type="number" value="3" max="10" /></td>
+                                <td>R$1600</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#"><i class="uil uil-times-circle"></i></a></td>
+                                <td><img src="./assets/img/products/armani.png" alt="Armani"></td>
+                                <td>Armani Watch</td>
+                                <td>R$206</td>
+                                <td><input type="number" value="4" max="10" /></td>
+                                <td>R$206</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#"><i class="uil uil-times-circle"></i></a></td>
+                                <td><img src="./assets/img/products/quantum.png" alt="Quantum"></td>
+                                <td>Quantum Watch</td>
+                                <td>R$139</td>
+                                <td><input type="number" value="8" max="10" /></td>
+                                <td>R$139</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#"><i class="uil uil-times-circle"></i></a></td>
+                                <td><img src="./assets/img/products/citizen.png" alt="Citizen"></td>
+                                <td>Citizen Watch</td>
+                                <td>R$180</td>
+                                <td><input type="number" value="10" max="10" /></td>
+                                <td>R$180</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section class="cart-add">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-6 cupon">
+                        <h3>Aplicar Cupom</h3>
+                        <div>
+                            <input type="text" placeholder="Enter your Cupon..!" />
+                            <button class="btn-normal">Aplicar</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 subtotal">
+                        <h3>Total do Carrinho</h3>
+                        <table class="table table-striped">
+                            <tr>
+                                <td>Cart Subtotal</td>
+                                <td>R$82</td>
+                            </tr>
+                            <tr>
+                                <td>Transporte</td>
+                                <td>R$30</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Total</strong></td>
+                                <td><strong>R$112</strong></td>
+                            </tr>
+                        </table>
+                        <button class="btn-normal">Proceed to Checkout</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="newsletter">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 col-lg-8">
+                        <div class="newstext">
+                            <h4>Inscreva-se para receber newsletters!</h4>
+                            <p>Receba atualizações por e-mail sobre nossos produtos mais recentes e<span>Ofertas Especiais
+                            </span>.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="n-form">
+                            <input type="text" placeholder="Digite seu email...">
+                            <button class="btn-normal">Registrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main><!-- main-body-end ./ -->
+
+    <footer class="footer">
+        <div class="container-footer">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 contact1">
+                    <img src="./assets/img/light-logo.png" class="footer-logo" alt="Ora - Logo">
+                    <h4>Contact</h4>
+                    <p><span class="fw-bold">Endereço:</span> Rr. Ferid Curri, 10000, Prishtina</p>
+                    <p><span class="fw-bold">Telefone:</span> +383 (0) 49 77 80 80</p>
+                    <p><span class="fw-bold">Abesto:</span> 07:00 - 22:00, Monday - Friday</p>
+                    <div class="social-fllw">
+                        <h4>Redes sociais</h4>
+                        <div class="icons d-flex justify-content-between align-items-center">
+                            <a href="https://m.facebook.com/page">
+                                <i class="uil uil-facebook"></i>
+                            </a>
+                            <a href="https://instagram.com/page">
+                                <i class="uil uil-instagram"></i>
+                            </a>
+                            <a href="https://twitter.com/page">
+                                <i class="uil uil-twitter-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-2 contact2">
+                    <h4>About</h4>
+                    <a href="./about.html">Sair</a>
+                    <a href="#">Informação de entrega</a>
+                    <a href="#">Politica de Privacidade</a>
+                    <a href="#">Termos&amp;Condições</a>
+                    <a href="./contact.html">Contato</a>
+                </div>
+
+                <div class="col-md-6 col-lg-2 contact3">
+                    <h4>My Account</h4>
+                    <a href="./sign-in.html">Entrar</a>
+                    <a href="#">Ver Carrinho</a>
+                    <a href="#">Minha Lista de Desejos</a>
+                    <a href="#">Meu Pedido</a>
+                    <a href="./help.html">Ajuda?</a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 install">
+                    <p>Pagamento seguro</p>
+                    <div class="payment">
+                        <i class="uil uil-master-card"></i>
+                        <i class="uil uil-paypal"></i>
+                        <i class="uil uil-transaction"></i>
+                        <i class="uil uil-bill"></i>
+                        <i class="uil uil-credit-card-search"></i>
+                        <i class="uil uil-university"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <button class="back-to-top hidden">
+            <i class="uil uil-angle-up"></i>
+        </button>
+        
+        <div class="cookie">
+            
+            <div>
+                <img src="./assets/img/other/cookie.png" alt="Cookie Png" />
+            </div>
+            <div class="content">
+                <h1>Cookies</h1>
+                <p>Usamos cookies para garantir que você tenha a melhor experiência enquanto joga!</p>
+                <a href="#" class="item">Leia mais</a>
+            </div>
+            <div class="btn-actions">
+                <button class="item">Eu aceito</button>
+            </div>
+        </div>
+    </footer><!-- footer-end ./ -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
